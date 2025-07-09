@@ -12,7 +12,7 @@ const JobDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`https://job-seeking-backend-deployment-q5nu.onrender.com/api/v1/job/${id}`, {
+      .get(`https://mern-stack-job-seeking-web-application-ohdg.onrender.com/api/v1/job/${id}`, {
         withCredentials: true,
       })
       .then((res) => {
