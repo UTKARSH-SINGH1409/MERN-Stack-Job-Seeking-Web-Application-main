@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
       <div>&copy; All Rights Reserved By CodeWithZeeshu.</div>
       <div>
-        <Link to={"https://www.linkedin.com/in/harsh-singh-hs7171/"} target="_blank">
+        <Link to={"https://www.linkedin.com/in/utkarsh-singh-866a44280/"} target="_blank">
           <FaLinkedin />
         </Link>
       </div>
